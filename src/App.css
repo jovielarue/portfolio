@@ -1,0 +1,163 @@
+/*
+  CSS RESET
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root {
+  --base: #264653;
+  --text: #e9c46a;
+  --accent1: #f4a261;
+  --accent2: #e76f51;
+  --primary: #2a9d8f;
+  --secondary: #ece6c4;
+  --h1: clamp(4rem, 0.956vw + 3.694rem, 5rem);
+  --h2: clamp(3.5rem, 0.956vw + 3.194rem, 4.5rem);
+  --h3: clamp(2.3rem, 0.956vw + 1.994rem, 3.3rem);
+  --h4: clamp(2rem, 0.956vw + 1.694rem, 3rem);
+  --h5: clamp(1.5rem, 0.287vw + 1.408rem, 1.8rem);
+  --p: 2rem;
+  font-size: 62.5%;
+  font-family: "Gabarito", sans-serif;
+  background-color: var(--base);
+}
+::selection {
+  color: var(--base);
+  background-color: var(--accent1);
+}
+h1 {
+  font-size: var(--h1);
+  text-align: center;
+}
+h2 {
+  font-size: var(--h2);
+  line-height: 1.5;
+}
+h3 {
+  font-size: var(--h3);
+  line-height: 1.7;
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+  line-height: 1.5;
+}
+p, li, a {
+  font-size: var(--p);
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: var(--accent1);
+}
+ul {
+  list-style-type: disc;
+}
+li {
+  margin-left: 1rem;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  border-bottom: 2px solid var(--accent1);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw - 30%);
+  gap: calc(100% / 8);
+}
+
+.nav-item a {
+  font-weight: 600;
+  letter-spacing: 0.2ch;
+  text-underline-offset: 1vh;
+  font-size: var(--h4);
+}
+
+.hero {
+  height: 75vh;
+  width: 100vw;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.tagline {
+  height: 100%;
+  width: 75%;
+  border: 2px solid red;
+}
+
+.tagline h1 {
+  color: var(--text);
+  letter-spacing: 0.1ch;
+  word-spacing: 0.5ch;
+  text-align: left;
+  font-size: calc(var(--h1)*3);
+  font-weight: bolder;
+}
+
+.abilities {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  border: 2px solid red;
+  padding: var(--h4)
+}
+
+.abilities h3 {
+  color: var(--accent2);
+  font-weight: bold;
+  text-align: right;
+}
