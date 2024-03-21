@@ -1,9 +1,7 @@
 import Abilities from "./Abilities";
 import About from "./About";
 
-
 export default function Home() {
-
 
   return (
     <>
@@ -11,7 +9,7 @@ export default function Home() {
         <div className="hero">
           <div className="tagline">
             <h1>
-              MY NAME IS JOSHUA LARUE AND I AM A SOFTWARE DEVELOPER.
+              MY NAME IS <span id='header-name'>JOSHUA LARUE</span> AND I AM A SOFTWARE DEVELOPER.
             </h1>
           </div>
           <Abilities />
@@ -21,7 +19,9 @@ export default function Home() {
           <p>↓ scroll down ↓</p>
         </div>
       </div>
-      <About />
+      <div className="scrolled">
+        <About />
+      </div>
     </>
   );
 }

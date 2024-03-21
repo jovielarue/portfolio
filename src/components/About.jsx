@@ -4,7 +4,7 @@ export default function About() {
       <div className="about-container">
         <h2>ABOUT ME</h2>
         <div className="about-body">
-          <p>I am a passionate and dynamic full-stack developer. I like to make a difference in the world wherever possible.</p>
+          <p>i am a passionate and dynamic full-stack developer. i like to make a difference in the world wherever possible.</p>
         </div>
       </div>
 
