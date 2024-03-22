@@ -6,26 +6,36 @@ import Resume from './components/Resume';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("home");
 
   return (
     <>
       <div className="app-inner">
-      <Routes>
-        <Route path='/' element={
-          <> 
-            <Header currentPage={currentPage} />
-            <Home />
-          </>
-        } />
-        
-        <Route path='/resume' element={
-          <>
-            <Header />
-            <Resume setCurrentPage={setCurrentPage}/>
-          </>
-        } />
-      </Routes>
+        <Routes>
+          <Route path='/' element={
+            <> 
+              <Header />
+              <Home />
+            </>
+          } />
+          
+          <Route path='/resume' element={
+            <>
+              <Header />
+              <Resume/>
+            </>
+          } />
+          <Route path='/projects' element={
+            <>
+              <Header />
+            </>
+          } />
+
+<         Route path='/contact' element={
+            <>
+              <Header />
+            </>
+          } />
+        </Routes>
       </div>
     </>
   )

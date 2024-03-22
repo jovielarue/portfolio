@@ -12,7 +12,7 @@ export default function About() {
         <h2>WHAT I'M UP TO</h2>
         <div className="upto-body">
           <p>i'm working on several side-projects.</p>
-          <p>one is an entry system for a local business that i am developing alongside a small team that utilizes react and next.js.</p>  
+          <p>one is an entry system for a local business that i am developing alongside a small team that utilizes react, next.js, and vercel.</p>  
           <p>another is a full-stack application using rust, rocket, and react.</p>
         </div>
       </div>

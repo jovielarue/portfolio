@@ -1,7 +1,18 @@
 import Abilities from "./Abilities";
 import About from "./About";
+import { useState } from "react";
 
 export default function Home() {
+
+  // Add a scroll event listener to the window object that changes the text of the "scroll down" message when the user scrolls down the page
+  const [scrollDownText, setScrollDownText] = useState("↓ scroll down ↓");
+  window.onscroll = (e) => {
+    if (window.scrollY < window.innerHeight / 1.7) {
+      setScrollDownText("↓ scroll down ↓");
+    } else {
+      setScrollDownText("thank you :)");
+    }
+  };
 
   return (
     <>
@@ -16,7 +27,7 @@ export default function Home() {
         </div>
 
         <div className="scroll-down">
-          <p>↓ scroll down ↓</p>
+          <p>{scrollDownText}</p>
         </div>
       </div>
       <div className="scrolled">
