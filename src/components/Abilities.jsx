@@ -11,8 +11,8 @@ export default function Abilities() {
           <h3>c#/.net</h3>
           <h3>git</h3>
           <h3>linux</h3>
-
-
+        </div>
+        <div className="abilities">
           <h2>stuff i'm learning:</h2>
           <h3>rust</h3>
           <h3>rocket</h3>

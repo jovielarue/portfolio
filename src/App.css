@@ -46,20 +46,19 @@ table {
 }
 :root {
   --base: #1c323b;
-  --text: #ffe4a1;
+  --light: #ece6c4;
   --accent1: #f4a261;
   --accent2: #e76f51;
   --primary: #45e0ce;
-  --secondary: #ece6c4;
-  --h1: clamp(4rem, 0.956vw + 3.694rem, 5rem);
-  --h2: clamp(3.5rem, 0.956vw + 3.194rem, 4.5rem);
-  --h3: clamp(2.3rem, 0.956vw + 1.994rem, 3.3rem);
+  --h1: clamp(2rem, 2.868vw + 1.082rem, 5rem);
+  --h2: clamp(3rem, 1.434vw + 2.541rem, 4.5rem);
+  --h3: clamp(2rem, 1.243vw + 1.602rem, 3.3rem);
   --h4: clamp(2rem, 0.956vw + 1.694rem, 3rem);
   --h5: clamp(1.5rem, 0.287vw + 1.408rem, 1.8rem);
-  --p: 2rem;
+  --p: clamp(1.3rem, 1.338vw + 0.872rem, 2.7rem);
   font-size: 62.5%;
-  font-family: "Gabarito", sans-serif;
-  color: var(--text);
+  font-family: 'Libre Franklin';
+  color: var(--light);
   background-color: var(--base);
 }
 ::selection {
@@ -102,7 +101,7 @@ ul {
   list-style-type: disc;
 }
 li {
-  margin-left: 1rem;
+  margin-left: 1.5ch;
 }
 a:hover {
   text-decoration: underline;
@@ -119,7 +118,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   width: 80vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 header {
@@ -151,37 +150,41 @@ header .header-nav {
 }
 
 .hero {
+  margin-top: 10vh;
+  height: 90vw;
   width: 90vw;
   display: flex;
   flex-direction: row;
 }
 
 .tagline {
-  height: 100%;
-  width: 15ch;
+  width: 20ch;
   font-size: calc(var(--h1)*3);
-  padding: var(--h1);
 }
 
 .tagline h1 {
+  font-family: "Gabarito", sans-serif;
   color: var(--text);
   letter-spacing: 0.1ch;
   word-spacing: 0.5ch;
   text-align: left;
-  font-size: calc(var(--h1)*3);
+  font-size: calc(var(--h1)*2.5);
   font-weight: bolder;
 }
 
 .abilities-container {
   box-sizing: border-box;
-  flex: 1 1 auto;
-  padding: var(--h1);
+  flex: 1 0 auto;
+  padding-inline: var(--h1);
   display: flex;
+  flex-direction: column;
+  gap: 5ch;
   justify-content: right;
 }
 
 .abilities h3 {
   color: var(--primary);
+  font-size: calc(var(--h3)/1.2);
   font-weight: bold;
   text-align: right;
 }
@@ -195,18 +198,29 @@ header .header-nav {
   padding-bottom: 1ch;
 }
 
+@keyframes scrollfloat {
+  from {bottom: 3vh}
+  50% {bottom: 4vh}
+  to {bottom: 3vh}
+}
 .scroll-down {
-  padding-top: 10ch;
-  color: var(--secondary);
+  position: absolute;
+  bottom: 3vh;
+  color: var(--light);
+  animation: scrollfloat 2s infinite ease-in-out;
 }
 
 .scrolled {
-  background-color: var(--secondary);
+  background-color: var(--light);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
+}
+.scrolled p::selection {
+  background-color: var(--base);
+  color: var(--accent1);
 }
 .about-container {
   padding-top: 10vh;
@@ -219,11 +233,8 @@ header .header-nav {
   padding-inline: 15ch;
   padding-block: 10ch;
 }
-p {
-  font-family: 'Libre Franklin';
-  font-weight: bold;
-}
 .about-body p {
+  font-weight: bold;
   color: black;
   font-size: var(--h4);
 }
@@ -245,7 +256,6 @@ p {
 }
 p {
   font-family: 'Libre Franklin';
-  font-weight: bold;
 }
 .upto-body p {
   color: var(--base);
@@ -255,4 +265,47 @@ p {
 
 .about-container h2, .upto-container h2 {
   color: var(--base);
+}
+
+.resume {
+  width: 80vw;
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5ch;
+}
+
+.resume h2, .resume h3 {
+  color: var(--accent1);
+}
+
+.resume a {
+  color: var(--accent2);
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vw;
+}
+
+.resume-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5ch;
+}
+
+.resume-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5ch;
+}
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
 }
