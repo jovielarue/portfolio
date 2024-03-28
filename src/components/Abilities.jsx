@@ -18,6 +18,7 @@ export default function Abilities() {
           <h3>rocket</h3>
           <h3>typescript</h3>
           <h3>mySQL</h3>
+          <h3>tailwindcss</h3>
         </div>
       </div>
     </>

@@ -109,21 +109,20 @@ a:hover {
 .app-inner {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .landing {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 80vw;
-  height: 90vh;
+  height: 80vh;
 }
 
 header {
   border-bottom: 2px solid var(--accent1);
   height: 10vh;
+  margin-bottom: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +149,6 @@ header .header-nav {
 }
 
 .hero {
-  margin-top: 10vh;
   height: 90vw;
   width: 90vw;
   display: flex;
@@ -219,6 +217,9 @@ header .header-nav {
   width: 100vw;
   padding-bottom: 10vw;
 }
+.scrolled h2 {
+  font-weight: bolder;
+}
 .scrolled p::selection {
   background-color: var(--base);
   color: var(--accent1);
@@ -272,7 +273,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 5ch;
-  padding-block: 5vh;
 }
 
 .resume h2, .resume h3 {
