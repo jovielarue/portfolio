@@ -11,6 +11,9 @@ export default function Home() {
       setScrollDownText("↓ scroll down ↓");
     } else {
       setScrollDownText("thank you :)");
+      setTimeout(() => {
+        setScrollDownText("");
+      }, 1500);
     }
   };
 
