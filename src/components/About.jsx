@@ -14,7 +14,7 @@ export default function About() {
         <div className="upto-body">
           <p>i'm currently working on <Link to='/projects'>several side-projects</Link>.</p>
           <p>one is an entry system for a local business that i am developing alongside a small team that utilizes react, next.js, and vercel.</p>  
-          <p>another is a full-stack application using rust, rocket, and react.</p>
+          <p>another is a full-stack application using next.js.</p>
         </div>
       </div>
     </>
