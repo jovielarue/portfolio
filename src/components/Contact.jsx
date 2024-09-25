@@ -1,4 +1,4 @@
-import emailSvg from "../email.svg";
+import emailSvg from "../../assets/email.svg";
 
 export default function Contact() {
   return (
@@ -8,4 +8,3 @@ export default function Contact() {
     </>
   );
 }
-

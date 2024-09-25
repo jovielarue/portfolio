@@ -1,8 +1,8 @@
-import raizapaloozaImg from "../raizapaloozasite.png";
-import yycioskImg from "../yyciosk.png";
-import freqImg from "../freq.png";
-import marblepeImg from "../marblepolishingexperts.png";
-import denvernlfImg from "../denvernlf.png";
+import raizapaloozaImg from "../../assets/raizapaloozasite.png";
+import yycioskImg from "../../assets/yyciosk.png";
+import freqImg from "../../assets/freq.png";
+import marblepeImg from "../../assets/marblepolishingexperts.png";
+import denvernlfImg from "../../assets/denvernlf.png";
 
 export default function Projects() {
   return (
