@@ -332,7 +332,7 @@ header a:hover {
   background-color: var(--accent1);
   width: 100%;
   box-sizing: border-box;
-  padding: 10vh;
+  padding: 5vh;
 }
 .scrolled p {
   color: var(--base);
@@ -353,7 +353,7 @@ header a:hover {
   background-color: var(--accent1);
   width: 100%;
   box-sizing: border-box;
-  padding: 10vh;
+  padding: 5vh;
 }
 p {
   font-family: "Libre Franklin";
@@ -410,6 +410,9 @@ p {
   display: flex;
   flex-direction: column;
   gap: 4ch;
+}
+.resume-section:last-child {
+  padding-bottom: 5rem;
 }
 .resume-section-grouping {
   display: flex;
@@ -522,3 +525,7 @@ p {
   }
 }
 
+.contact-header {
+  padding: 2rem;
+  margin-bottom: 5rem;
+}

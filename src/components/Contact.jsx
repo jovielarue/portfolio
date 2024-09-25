@@ -1,7 +1,11 @@
+import emailSvg from "../email.svg";
+
 export default function Contact() {
   return (
     <>
-      <h1>contact me</h1>
+      <h1 className={"contact-header"}>contact me</h1>
+      <img src={emailSvg} />
     </>
   );
 }
+

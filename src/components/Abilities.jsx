@@ -7,13 +7,14 @@ export default function Abilities() {
           <h3>react.js</h3>
           <h3>next.js</h3>
           <h3>tailwindcss</h3>
-          <h3>mongoDB</h3>
-          <h3>mySQL</h3>
-          <h3>c#/.net</h3>
+          <h3>wordpress</h3>
+          <h3>oracle DBMS</h3>
+          <h3>java</h3>
           <h3>git</h3>
-          <h3>linux</h3>
+          <h3>linux systems</h3>
         </div>
       </div>
     </>
   );
 }
+

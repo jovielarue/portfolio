@@ -1,6 +1,8 @@
 import raizapaloozaImg from "../raizapaloozasite.png";
 import yycioskImg from "../yyciosk.png";
 import freqImg from "../freq.png";
+import marblepeImg from "../marblepolishingexperts.png";
+import denvernlfImg from "../denvernlf.png";
 
 export default function Projects() {
   return (
@@ -8,6 +10,61 @@ export default function Projects() {
       <h1>my projects</h1>
 
       <div className="projects-wrapper">
+        <div className="project">
+          <h2>marble polishing experts</h2>
+          <div className="project-description">
+            <p>
+              Over the summer of 2024, I worked as an intern at{" "}
+              <a
+                href="https://gritmedium.com"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                Grit Medium Digital Marketing
+              </a>{" "}
+              creating and managing various client <strong>Wordpress</strong>{" "}
+              sites. One of the sites I worked on was{" "}
+              <a
+                href="https://marblepolishingexperts.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Marble Polishing Experts.
+              </a>{" "}
+              I used Bricks Builder to recreate an existing site from scratch in
+              order to reduce the client's page load times and boost their SEO.
+              I learned so much about Wordpress during this project; templating,
+              post and blog management, best practices for hosting, image and
+              media management, and so much more.
+            </p>
+            <div className="project-image">
+              <img src={marblepeImg} alt="marble polishing experts home page" />
+            </div>
+          </div>
+        </div>
+        <div className="project">
+          <h2>denver nlf events</h2>
+          <div className="project-description">
+            <p>
+              I currently have a hand in creating and managing many event
+              postings for the{" "}
+              <a
+                href="https://denvernlfevents.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Denver Natural Living Foundation.
+              </a>{" "}
+              Most of the upcoming event postings on the front page are written
+              by me. I create and manage them through the client's Wordpress
+              installation.
+            </p>
+            <div className="project-image">
+              <img src={denvernlfImg} alt="denver nlf event posting" />
+            </div>
+          </div>
+        </div>
+
         <div className="project">
           <h2>raizapalooza</h2>
           <div className="project-description">
@@ -124,4 +181,3 @@ export default function Projects() {
     </>
   );
 }
-
