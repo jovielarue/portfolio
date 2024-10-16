@@ -5,7 +5,7 @@ export default function Resume() {
     <div className="resume">
       <div className="resume-header">
         <div className="resume-hero">
-          <h1>Joshua LaRue</h1>
+          <h1>Jovie LaRue</h1>
           <p>joshua.larue@edu.sait.ca</p>
         </div>
       </div>
@@ -75,4 +75,3 @@ export default function Resume() {
     </div>
   );
 }
-

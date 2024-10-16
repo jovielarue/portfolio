@@ -1,4 +1,4 @@
-# Josh LaRue's React Portfolio
+# Jovie LaRue's React Portfolio
 
 This is my portfolio website, written in React using Vite.
 
