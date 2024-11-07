@@ -3,6 +3,7 @@ import yycioskImg from "../../assets/yyciosk.png";
 import freqImg from "../../assets/freq.png";
 import marblepeImg from "../../assets/marblepolishingexperts.png";
 import denvernlfImg from "../../assets/denvernlf.png";
+import charchatImg from "../../assets/charchat.png";
 
 export default function Projects() {
   return (
@@ -32,16 +33,72 @@ export default function Projects() {
                 Marble Polishing Experts.
               </a>{" "}
               I used Bricks Builder to recreate an existing site from scratch in
-              order to reduce the client's page load times and boost their SEO.
-              I learned so much about Wordpress during this project; templating,
-              post and blog management, best practices for hosting, image and
-              media management, and so much more.
+              order to reduce the client&apos;s page load times and boost their
+              SEO. I learned so much about Wordpress during this project;
+              templating, post and blog management, best practices for hosting,
+              image and media management, and so much more.
             </p>
             <div className="project-image">
               <img src={marblepeImg} alt="marble polishing experts home page" />
             </div>
           </div>
         </div>
+        <div className="project">
+          <h2>charchat</h2>
+          <div className="project-description">
+            <p>
+              <a
+                href="https://chat.jahsauce.net/auth/signup"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                CharChat
+              </a>{" "}
+              is like twitter, but better! No pesky ads, only cool people, and
+              built by moi. It is a Next.js application with a Pocketbase
+              backend that supports individual user profiles with avatars and up
+              to 512 character &quot;chats&quot; (character chats... charchat
+              :)) at a time. Pocketbase has really grown on me for its ease of
+              use, ability to self-host, and relatively small performance drain.
+              Feel free to create an account and see what&apos;s up!
+            </p>
+            <div className="project-image">
+              <img src={charchatImg} alt="marble polishing experts home page" />
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <h2>freq</h2>
+          <div className="project-description">
+            <p>
+              FREQ is a cross-platform{" "}
+              <a
+                href={"https://lbfm.jahsauce.cloud"}
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                music-tracking and rating app
+              </a>
+              . It is currently hosted, and users are able to sign up for an
+              account and start ranking songs and albums using a fun
+              mobile-first interface! Users are able to find other users, and
+              see the community average rating for all albums currently in the
+              system. It uses Next.js for the back-end, and React for the
+              front-end. I am using MySQL as its database because I&apos;d like
+              to gain experience in using a relational database in a real-life
+              application.
+            </p>
+          </div>
+          <div className="project-image">
+            <img
+              src={freqImg}
+              className={"lbfm-img"}
+              alt="freq album page"
+            ></img>
+          </div>
+        </div>
+
         <div className="project">
           <h2>denver nlf events</h2>
           <div className="project-description">
@@ -56,8 +113,8 @@ export default function Projects() {
                 Denver Natural Living Foundation.
               </a>{" "}
               Most of the upcoming event postings on the front page are written
-              by me. I create and manage them through the client's Wordpress
-              installation.
+              by me. I create and manage them through the client&apos;s
+              Wordpress installation.
             </p>
             <div className="project-image">
               <img src={denvernlfImg} alt="denver nlf event posting" />
@@ -97,54 +154,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="project">
-          <h2>freq</h2>
-          <div className="project-description">
-            <p>
-              FREQ is a cross-platform{" "}
-              <a
-                href={"https://lbfm.jahsauce.cloud"}
-                target={"_blank"}
-                rel={"noreferrer"}
-              >
-                music-tracking and rating app
-              </a>
-              . It is currently hosted, and users are able to sign up for an
-              account and start ranking songs and albums using a fun
-              mobile-first interface! Users are able to find other users, and
-              see the community average rating for all albums currently in the
-              system. It uses Next.js for the back-end, and React for the
-              front-end. I am using MySQL as its database because I'd like to
-              gain experience in using a relational database in a real-life
-              application.{" "}
-            </p>
-          </div>
-          <div className="project-image">
-            <img
-              src={freqImg}
-              className={"lbfm-img"}
-              alt="freq album page"
-            ></img>
-          </div>
-        </div>
-        <div className="project">
-          <h2>earrings</h2>
-          <div className="project-description">
-            <p>
-              Earrings is an e-commerce solution for my younger siblings who
-              wanted to have a place to sell their hand-made jewelry. I decided
-              to embark on this journey of making my own e-commerce site once my
-              siblings complained that Etsy took too much out of their sale
-              price. I am in the early stages of its development, but it seems
-              promising! I'm using Next.js and MongoDB. The decision to use
-              MongoDB was made because it is not imperative to relationally
-              store data (I just need to store products and receipt objects).
-              I've also gotten experience with relational databases in some of
-              my other projects, so using a document database seemed to be the
-              next learning step for me!{" "}
-            </p>
-          </div>
-        </div>
+
         <div className="project">
           <h2>hackathon project</h2>
           <div className="project-description">

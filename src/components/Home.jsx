@@ -3,7 +3,6 @@ import About from "./About";
 import { useState } from "react";
 
 export default function Home() {
-
   // Add a scroll event listener to the window object that changes the text of the "scroll down" message when the user scrolls down the page
   const [scrollDownText, setScrollDownText] = useState("↓ scroll down ↓");
   window.onscroll = (e) => {
@@ -19,11 +18,12 @@ export default function Home() {
 
   return (
     <>
-      <div className='landing'>
+      <div className="landing">
         <div className="hero">
           <div className="tagline">
             <h1>
-              MY NAME IS <span id='header-name'>JOSHUA LARUE</span> AND I AM A SOFTWARE DEVELOPER.
+              MY NAME IS <span id="header-name">JOVIE LARUE</span> AND I AM A
+              SOFTWARE DEVELOPER.
             </h1>
           </div>
           <Abilities />
@@ -39,3 +39,4 @@ export default function Home() {
     </>
   );
 }
+
