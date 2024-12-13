@@ -14,15 +14,15 @@ export default function Resume() {
           <section className="resume-section">
             <h2>education</h2>
             <div className="resume-section-grouping">
-              <h3>sait</h3>
+              <h3>SAIT</h3>
               <h4>sept. 2023 - present</h4>
             </div>
             <p>
-              i am currently studying in the software development program at the
-              sait school for advanced digital technology, standing at a 4.0
-              gpa.
+              I am currently studying in the software development program at the
+              SAIT School for Advanced Digital Technology, standing at a 4.0
+              GPA.
             </p>
-            <p>my first and second year course material has covered:</p>
+            <p>My first and second year course material has covered:</p>
             <ul>
               <li>html, css, and javascript</li>
               <li>python</li>
@@ -36,38 +36,38 @@ export default function Resume() {
           <section className="resume-section">
             <h2>experience</h2>
             <h4>
-              <Link to="/projects">see projects tab</Link>
+              <Link to="/projects">see projects tab for links</Link>
             </h4>
             <div className="resume-section-grouping">
               <ul>
-                <li>entry system for a local business</li>
+                <li>Entry system for a local business written with Next.js</li>
+                <li>Liquor counting/inventory system for Heritage Park</li>
                 <li>
-                  managing client wordpress installations and creating wordpress
+                  Managing client Wordpress installations and creating Wordpress
                   sites
                 </li>
-                <li>several web projects utilizing react and next.js</li>
-                <li>sait coursearch: placed third in a sait-run hackathon</li>
-                <li>yyc-iosk: placed fourth in the yychacks 2024 hackathon</li>
+                <li>SAIT CourSearch: placed third in a sait-run hackathon</li>
+                <li>YYC-iosk: placed fourth in the YYChacks 2024 hackathon</li>
               </ul>
             </div>
           </section>
           <section className="resume-section">
             <h2>hobbies</h2>
             <ul>
-              <li>music production</li>
-              <li>web development for friends and family</li>
-              <li>reading and writing</li>
-              <li>keeping up with tech news</li>
-              <li>neovim</li>
+              <li>Music production</li>
+              <li>Web development for friends and family</li>
+              <li>Reading and writing</li>
+              <li>Keeping up with tech news</li>
+              <li>Neovim</li>
             </ul>
           </section>
           <section className="resume-section">
             <h2>about me</h2>
             <p id="resume-about">
-              i am a full-stack developer with a passion for helping people
-              create originative solutions to their problems. i am great at
-              working collaboratively, incredible at learning quickly, and
-              always am willing to take on a challenge.
+              I am a developer with a passion for helping people create
+              originative solutions to their problems. I am great at working
+              collaboratively, incredible at learning quickly, and always am
+              willing to take on a challenge.
             </p>
           </section>
         </div>
