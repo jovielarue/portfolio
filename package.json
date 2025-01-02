@@ -2,7 +2,7 @@
   "name": "resume-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jovielarue.github.io/",
+  "homepage": "https://jovielarue.net",
   "type": "module",
   "scripts": {
     "dev": "vite",
