@@ -6,7 +6,9 @@ export default function Resume() {
       <div className="resume-header">
         <div className="resume-hero">
           <h1>Jovie LaRue</h1>
-          <p>joshua.larue@edu.sait.ca</p>
+          <a href={"mailto:jovie.larue@edu.sait.ca"}>
+            <p>jovie.larue@edu.sait.ca</p>
+          </a>
         </div>
       </div>
       <main>
@@ -28,6 +30,7 @@ export default function Resume() {
               <li>python</li>
               <li>c#/.net</li>
               <li>java</li>
+              <li>operating systems</li>
               <li>git</li>
               <li>sql and pl/sql</li>
               <li>critical thinking and logic</li>
