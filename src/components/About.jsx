@@ -8,7 +8,7 @@ export default function About() {
           <p>
             I am a passionate and dynamic software developer. I like to make a
             difference in the world wherever possible. I've been interested in
-            computers since i was a small child, and that interest has not
+            computers since I was a small child, and that interest has not
             faded. As a 13 year old, I was discovering Debian Linux on the CHIP
             computer and Raspberry Pis. As I grew older, my love for Linux and
             programming has steadily grown, and I'm now taking the Software
@@ -21,32 +21,17 @@ export default function About() {
         <h2>WHAT I'M UP TO</h2>
         <div className="upto-body">
           <p>
-            I have just finished my third semester of the software development
-            program at SAIT. This semester has had me working mostly on Java,
-            Next.js, and React projects.
-          </p>
-          <p>
-            I am also working on an extremely fun project with Rust. Over the
-            winter break, I will be rewriting{" "}
+            I am almost done my fourth semester in the Software Development
+            diploma program at SAIT. This semester has seen me working on a
+            newer{" "}
             <a
-              href="https://github.com/kamalmostafa/minimodem"
+              href="https://github.com/jovielarue/mrrp"
               target="_blank"
               rel="noreferrer"
             >
-              minimodem
+              Rust-based version of CharChat
             </a>{" "}
-            (a C project) in Rust. I am concurrently developing a Rust
-            application that will transmit and recieve images with audio. The
-            end goal is to integrate the two projects. You can find my current
-            progress{" "}
-            <a
-              href="https://github.com/jovielarue/audimage"
-              target="_blank"
-              rel="noreferrer"
-            >
-              here
-            </a>
-            .
+            and starting work with a FinTech startup called Clove.
           </p>
           <p>
             Through SAIT, and with a small group of peers, I am working on a
