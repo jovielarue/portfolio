@@ -258,7 +258,7 @@ header a:hover {
   letter-spacing: 0.1ch;
   word-spacing: 0.5ch;
   text-align: left;
-  font-size: calc(var(--h1) * 2.5);
+  font-size: calc(var(--h1) * 2);
   font-weight: bolder;
 }
 
@@ -528,4 +528,8 @@ p {
 .contact-header {
   padding: 2rem;
   margin-bottom: 5rem;
+}
+
+.contact-email {
+  color: var(--text);
 }
